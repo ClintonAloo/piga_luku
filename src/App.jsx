@@ -1,7 +1,7 @@
 // import { Hero, Test} from "./Hero"
 import {useState, useEffect} from "react"
-import Hero from "./components/Hero"
-import About from "./components/About"
+import Home from "./pages/Home"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 function App() {
   const [scroll, setScroll] = useState(0)
@@ -16,10 +16,8 @@ function App() {
     }
   }, [])
   return (
-    <div>
-      <Hero scroll={scroll}/>
-      <About />
-    </div>
+    <BrowserRouter><Routes>
+      <Route path="/about" element={<h1>about</h1>} /><Route path="/" element={<Home />} /></Routes> </BrowserRouter>
   )
 }
 

@@ -11,10 +11,10 @@ return <div className="hero">
                 <div className="center-content">
 
                 <h2 className="hero__title">
-                    Lorem ipsum dolor sit.
+                    About our site.
                 </h2>
                 <p className="hero__desc">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum cupiditate velit earum, laborum natus rerum amet enim ab necessitatibus mollitia. Enim nemo nostrum mollitia veniam, cumque eius pariatur eligendi eaque, cum excepturi sit consequatur dolore porro quod odit quia accusamus similique ex fugit aliquam. Expedita commodi dolorem fugiat sapiente impedit!
+                    Sucker for nice kicks and heels? Look no further. Piga Luku is a one-stop online shoe store that saves you the hustle of navigating multiple websites or contacting a list of endless dealers just to get your favorite shoe. Here you will find your favorite sneakers, official leather shoes, or even hiking boots. The piga Luku team is friendly and full of humor. come chat with us. Welcome
                 </p>
                 <button className="btn btn--secondary">shop</button>
                 </div>
