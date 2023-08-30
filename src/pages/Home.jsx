@@ -1,6 +1,6 @@
 
 import Hero from "../components/Hero"
-import About from "../components/About"
+import Team from "../components/Team"
 
 
 function Home(){
@@ -9,9 +9,10 @@ function Home(){
  return (
     <div>
       <Hero scroll={scroll}/>
-      <About />
-    </div>
+      <Team />
+      </div>
   )
  }
+
  
  export default Home

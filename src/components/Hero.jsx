@@ -1,12 +1,6 @@
-
-import Navbar from "./Navbar"
-
 export default function Hero({scroll}) {
 
 return <div className="hero">
-    <div className="hero__header">
-            <Navbar scroll={scroll} />
-    </div>
             <div className="hero__body">
                 <div className="center-content">
 

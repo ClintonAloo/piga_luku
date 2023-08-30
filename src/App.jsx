@@ -2,6 +2,8 @@
 import {useState, useEffect} from "react"
 import Home from "./pages/Home"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
 
 function App() {
   const [scroll, setScroll] = useState(0)
@@ -16,8 +18,12 @@ function App() {
     }
   }, [])
   return (
-    <BrowserRouter><Routes>
-      <Route path="/about" element={<h1>about</h1>} /><Route path="/" element={<Home />} /></Routes> </BrowserRouter>
+    <BrowserRouter>
+    <Navbar scroll={scroll}/>
+    <Routes>
+      <Route path="/about" element={<h1>about</h1>} /><Route path="/" element={<Home />} /></Routes> 
+      <Footer />
+      </BrowserRouter>
   )
 }
 
