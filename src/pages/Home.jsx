@@ -1,15 +1,13 @@
 
 import Hero from "../components/Hero"
-import Team from "../components/Team"
+import Featured from "../components/Featured";
 
-
-function Home(){
-    
+function Home({state}){
 
  return (
     <div>
       <Hero scroll={scroll}/>
-      <Team />
+      <Featured state={state} />
       </div>
   )
  }

@@ -1,9 +1,7 @@
 
 import logo from "../assets/logo.png"
-
+import { Link } from "react-router-dom"
 function Navbar({scroll}) {
-
-    console.log(scroll);
 
     return <nav className={scroll ? "nav nav--sticky" : "nav"}>
         <div className="center-content nav-center">
@@ -15,13 +13,13 @@ function Navbar({scroll}) {
             </div>
             <ul className="nav__links">
                 <li className="nav__link">
-                    <a href="#">home</a>
+                    <Link to="/">home</Link>
                 </li>
                  <li className="nav__link">
-                    <a href="#">about</a>
+                    <Link to="/about">about</Link>
                 </li>
                  <li className="nav__link">
-                    <a href="#">shop</a>
+                    <Link to="/shop">shop</Link>
                 </li>
             </ul>
         </div>
