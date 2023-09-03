@@ -8,7 +8,7 @@ function Team () {
                 <div className="underline"></div>
                 </div>    
         <div className="center-content">
-            <div className="team__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur rerum, earum voluptas dolore temporibus quae animi ut, asperiores blanditiis illum eos eum impedit quod autem laudantium! Accusantium dolores ex repellendus. Quasi ad ullam necessitatibus dignissimos numquam eius aliquid obcaecati, laborum reprehenderit maiores, id odio voluptas a nobis, iure eum eveniet.</div>
+            <div className="team__desc">The team is made up of two ambitious young devs with a passion for kicks, heels and looks. This great team combines to bring forth a common place for all shoe lovers in Kenya. With much passion in software development, creating such fantastic dynamic website is always a pleasure for the two aspiring creators. .</div>
             <div className="card__container">
                 <div className="center-content">
                     <div className="profile">
