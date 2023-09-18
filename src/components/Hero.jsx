@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+
+
 export default function Hero({ scroll }) {
   return (
     <div className="hero">
@@ -12,7 +15,7 @@ export default function Hero({ scroll }) {
             official leather shoes, or even hiking boots. The piga Luku team is
             friendly and full of humor. come chat with us. Welcome
           </p>
-          <button className="btn btn--secondary">shop</button>
+          <Link style={{ display: "inline-block" }}to='/shop'className="btn btn--secondary">shop</Link>
         </div>
       </div>
     </div>

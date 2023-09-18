@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Products from "./pages/Products";
 import Error from "./pages/Error";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
@@ -30,6 +31,7 @@ function App() {
       <Routes>
         <Route path="/about" element={<About />} />
         <Route path="/" element={<Home state={state} />} />
+        <Route path="/shop" element={<Products state={state} /> } />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />
