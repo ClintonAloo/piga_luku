@@ -192,7 +192,7 @@ export const products = [
     company: "vans",
     colors: ["#E1CE7A", "#FBFFB9", "#433E0E", "#070707", "#FDE12D"],
     size: [6, 7, 8, 9, 10, 11],
-    price: ksh 4000,
+    price: 4000,
     stock: 50,
     reviews: 5,
     rating: 3,
